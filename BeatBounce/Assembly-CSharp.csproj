@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{29392A51-3CFD-D311-F095-F925AACC0A96}</ProjectGuid>
+    <ProjectGuid>{2A1C4B42-D6E6-514C-43E8-9220177C24ED}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -67,7 +67,6 @@
     <Compile Include="Assets\Game\Script\SongLoad.cs" />
     <Compile Include="Assets\SoftEffects\Scripts\CGHolder.cs" />
     <Compile Include="Assets\UI pack\Scripts\FillValueNumber.cs" />
-    <Compile Include="Assets\Game\Script\Itween\Itween1.cs" />
     <Compile Include="Assets\SoftEffects\Scripts\GPUWorker.cs" />
     <Compile Include="Assets\slashPrefab.cs" />
     <Compile Include="Assets\Game\Script\MountainRoop.cs" />
@@ -114,11 +113,11 @@
     <Compile Include="Assets\Game\Script\Song\Black.cs" />
     <Compile Include="Assets\Game\Script\MeshCut\JCut.cs" />
     <Compile Include="Assets\SoftEffects\Scripts\SoftEffectsFont.cs" />
+    <Compile Include="Assets\Game\CilekOn.cs" />
     <Compile Include="Assets\Game\Script\ComboUI.cs" />
     <Compile Include="Assets\Game\Script\NoteActive.cs" />
     <Compile Include="Assets\Game\Script\MeshCut\SCut.cs" />
     <Compile Include="Assets\Game\IntroScene\GameRule.cs" />
-    <Compile Include="Assets\Game\CilekOn.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
@@ -775,7 +774,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
-      <Project>{97EF64BA-179F-D29C-4031-AE1610FB6171}</Project>
+      <Project>{D430B6E4-9ACE-9BB0-4B20-32F9171ED129}</Project>
       <Name>Assembly-CSharp-firstpass</Name>
     </ProjectReference>
   </ItemGroup>

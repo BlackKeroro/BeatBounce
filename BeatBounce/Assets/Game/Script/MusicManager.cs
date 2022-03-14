@@ -143,34 +143,33 @@ public class MusicManager : MonoBehaviour
     {
         SongPlayint(3);
     }
+    
 
     public int List = 1; // 노래 선택 전 노래 선택 변수(화면 전환시 노래 변경)
 
-    public void NextSong() // 840
+    public void NextSong() //
     {
         for (int i = 0; i < MusicSelect.Length; i++)
-        {
-            iTween.MoveBy(MusicSelect[i], iTween.Hash(
- "X", -1500, "time", 1.5f, "easetype", iTween.EaseType.easeInBack
-));
-            Debug.Log("Next실행");
+        {//ITween을 사용하여 MoveBy(현재 위치에서 원하는 숫자만큼 이동), X에 -1500만큼 1.5초에 걸쳐 이동한다.
+            iTween.MoveBy(MusicSelect[i], iTween.Hash( "X", -1500, "time", 1.5f, "easetype", iTween.EaseType.easeInBack));
         }
-        MS.SelectSong[List-1].Stop();
-        GameObject.Find("NextButton").transform.GetChild(0).gameObject.SetActive(false);
-        SongSel.transform.GetChild(0).gameObject.SetActive(false);
-        SongSel.transform.GetChild(1).gameObject.SetActive(false);
+        MS.SelectSong[List-1].Stop(); //해당 노래의 하이라이트 부분 정지
+        GameObject.Find("NextButton").transform.GetChild(0).gameObject.SetActive(false); //마우스를 버튼에 가까이 했을때 빛나는 버튼 비활성화
+        SongSel.transform.GetChild(0).gameObject.SetActive(false);//다음 버튼 잠시 비활성화
+        SongSel.transform.GetChild(1).gameObject.SetActive(false);//이전 버튼 잠시 비활성화
         List++;
         Invoke("Previous", 1.5f);
     }
     public void Previous()
     {
-        MS.SelectSong[List - 1].Play();
-        if (List == 4)
+        MS.SelectSong[List - 1].Play();//다음 곡 재생
+        if (List == 4)//만약 List(노래)가 4라면
         {
-            SongSel.transform.GetChild(1).gameObject.SetActive(true);
+            SongSel.transform.GetChild(1).gameObject.SetActive(true);//이전 버튼 활성화
          }
-            else if(List != 1)
+            else if(List != 1)//그렇다면 만약 List가 1이 아니면 
             {
+            //이전, 다음 버튼 활성화
             SongSel.transform.GetChild(0).gameObject.SetActive(true);
             SongSel.transform.GetChild(1).gameObject.SetActive(true);
         }
@@ -180,9 +179,8 @@ public class MusicManager : MonoBehaviour
     {
         for (int i = 0; i < MusicSelect.Length; i++)
         {
-            iTween.MoveBy(MusicSelect[i], iTween.Hash(
- "X", 1500, "time", 1.5f, "easetype", iTween.EaseType.easeInBack
-));
+            //ITween을 사용하여 MoveBy(현재 위치에서 원하는 숫자만큼 이동), X에 1500만큼 1.5초에 걸쳐 이동한다.
+                iTween.MoveBy(MusicSelect[i], iTween.Hash( "X", 1500, "time", 1.5f, "easetype", iTween.EaseType.easeInBack));
         }
         MS.SelectSong[List-1].Stop();
         GameObject.Find("PreviousButton").transform.GetChild(0).gameObject.SetActive(false);

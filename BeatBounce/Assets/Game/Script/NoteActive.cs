@@ -44,7 +44,10 @@ public class NoteActive : MonoBehaviour
                 //PerfactText();
                 ComboUI.Combo++;
                 ScoreUI.Score += (10 * ComboUI.Combo);
-                HpUI.UpHpbar++;
+                if(HpUI.Hp < 10)
+                {
+                    HpUI.UpHpbar++;
+                }
                 GameObject PText = Instantiate(PerfactText);
                 PText.transform.position = TPos.position;
                 CU.StopCoroutine("FadeInanim");
@@ -58,7 +61,10 @@ public class NoteActive : MonoBehaviour
                 Debug.Log("Good!");
                 ComboUI.Combo++;
                 ScoreUI.Score += (5 * ComboUI.Combo);
-                HpUI.UpHpbar++;
+                if (HpUI.Hp < 10)
+                {
+                    HpUI.UpHpbar++;
+                }
                 GameObject GText = Instantiate(GoodText);
                 GText.transform.position = TPos.position;
                 CU.StopCoroutine("FadeInanim");
