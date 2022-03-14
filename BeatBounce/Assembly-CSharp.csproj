@@ -76,7 +76,7 @@
     <Compile Include="Assets\SoftEffects\Scripts\PrintData.cs" />
     <Compile Include="Assets\Game\IntroScene\HpRender.cs" />
     <Compile Include="Assets\VolumetricLines\BuiltInRenderPipeline\ExampleScenes\ExampleScripts\CreateSinShapedLineStrip.cs" />
-    <Compile Include="Assets\Game\Script\Perfact.cs" />
+    <Compile Include="Assets\Game\Script\Perfect.cs" />
     <Compile Include="Assets\Game\IntroScene\IntroFade.cs" />
     <Compile Include="Assets\Game\Script\MeshCut\MeshColliderPerMaterial.cs" />
     <Compile Include="Assets\Game\IntroScene\Camitween.cs" />

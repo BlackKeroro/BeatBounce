@@ -22,7 +22,9 @@ public struct Piece
 
 public class One : MonoBehaviour
 {
+    //생성될 노트 블럭 위치
     public GameObject[] Factory;
+    //
     public GameObject[] Note;
     //string m_strPath = "Assets/Resources/";
 
@@ -65,7 +67,7 @@ public class One : MonoBehaviour
             listFireShotTime.Add((float)(Convert.ToDouble(values[1])- MusicManager.instance.tempTime));*/
 
         //제이슨 파서
-        //경로의 파일 불러옴
+        //경로의 Json파일 불러옴
         string json = File.ReadAllText(Application.dataPath + "/Resources/One.json");
         //제이슨파일 직렬화 해제
         data = JsonConvert.DeserializeObject<List<Piece>>(json);
