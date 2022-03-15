@@ -16,6 +16,7 @@ text파일에 string 데이터 쓰고 읽기
 
 public struct Piece
 {
+    //Json파일에서 호출할 인덱스와 시간
     public int index;
     public float time;
 }
@@ -24,7 +25,7 @@ public class One : MonoBehaviour
 {
     //생성될 노트 블럭 위치
     public GameObject[] Factory;
-    //
+    //생성할 노트 프리팹
     public GameObject[] Note;
     //string m_strPath = "Assets/Resources/";
 
@@ -67,7 +68,7 @@ public class One : MonoBehaviour
             listFireShotTime.Add((float)(Convert.ToDouble(values[1])- MusicManager.instance.tempTime));*/
 
         //제이슨 파서
-        //경로의 Json파일 불러옴
+        //해당 경로의 Json파일 불러옴
         string json = File.ReadAllText(Application.dataPath + "/Resources/One.json");
         //제이슨파일 직렬화 해제
         data = JsonConvert.DeserializeObject<List<Piece>>(json);
@@ -85,27 +86,35 @@ public class One : MonoBehaviour
     bool isCoroutine = true;
     private void FixedUpdate()
     {
+        //인덱스의 갯수와 타임의 갯수가 0보다 크고  
         if(listFireObjIdx.Count > 0  && listFireShotTime.Count > 0)
         {
+            //인덱스의 갯수가 실행갯수(ShotCnt)보다 많을 경우 
             if (listFireObjIdx.Count > shotCnt)
             {
                 currentTime += Time.fixedDeltaTime;
+                //curretTime이 제이슨 파일에 존재하는 실행 번호의 타임(시간)보다 클 경우
                 if (currentTime > listFireShotTime[shotCnt])
                 {
                     int idx = listFireObjIdx[shotCnt];
+                    //랜덤 위치로 지정
                     rnd = Factory[UnityEngine.Random.Range(0, Factory.Length)];
+                    //노트 프리팹을 생성
                     GameObject fireObjects = Instantiate(Note[idx]);
+                    //해당 랜덤 위치에서 시작
                     fireObjects.transform.position = rnd.transform.position;
 
                   print("오브젝트인덱스:" + listFireObjIdx[shotCnt] + " 경과시간: " + listFireShotTime[shotCnt]);
+                    //실행 번호 증가해서 다음 실행 번호의 타임을 불러옴
                     shotCnt++;
 
                 }
             }
             else
             {
+                //아니면(끝났을 경우) Fade에 사용할 Panel 활성화
                 GameObject.Find("Canvas").transform.GetChild(1).gameObject.SetActive(true);
-                Fade.StopCoroutine("FadeOut");
+                Fade.StopCoroutine("FadeOut"); //FadeOut 코루틴 실행
                 if (isCoroutine == true)
                 {
                     Fade.StartCoroutine("FadeIn");

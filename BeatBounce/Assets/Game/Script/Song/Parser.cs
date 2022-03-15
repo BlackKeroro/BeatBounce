@@ -17,12 +17,14 @@ text파일에 string 데이터 쓰고 읽기
 
 public struct Data
 {
+
     public int index;
     public float time;
 }
 
 public class Parser : MonoBehaviour
 {
+   
     public GameObject[] Factory;
     public GameObject[] Note;
     //string m_strPath = "Assets/Resources/";
