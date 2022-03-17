@@ -48,7 +48,7 @@ void Start()
 
     private void FixedUpdate()
     {
-        if (isStart == true) //∞‘¿”
+        if (isStart == true) 
         {
             currentTime += Time.fixedDeltaTime;
         }

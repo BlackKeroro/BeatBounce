@@ -29,8 +29,11 @@ public class One : MonoBehaviour
     public GameObject[] Note;
     //string m_strPath = "Assets/Resources/";
 
+    //Json파일에서 받아올 인덱스 리스트
     List<int> listFireObjIdx = new List<int>();
+    //Json파일에서 받아올 타임 리스트
     List<float> listFireShotTime = new List<float>();
+    //Json 파일에 가져올 데이터 리스트
     public List<Piece> data = new List<Piece>();
 
     float currentTime = 0.0f;
@@ -83,7 +86,7 @@ public class One : MonoBehaviour
 
     }
 
-    bool isCoroutine = true;
+    bool isCoroutine = true; //코루틴 반복 제한
     private void FixedUpdate()
     {
         //인덱스의 갯수와 타임의 갯수가 0보다 크고  
@@ -114,10 +117,10 @@ public class One : MonoBehaviour
             {
                 //아니면(끝났을 경우) Fade에 사용할 Panel 활성화
                 GameObject.Find("Canvas").transform.GetChild(1).gameObject.SetActive(true);
-                Fade.StopCoroutine("FadeOut"); //FadeOut 코루틴 실행
+                Fade.StopCoroutine("FadeOut"); //Fade 스크립트에 실행되고 있는 FadeOut 코루틴 중지
                 if (isCoroutine == true)
                 {
-                    Fade.StartCoroutine("FadeIn");
+                    Fade.StartCoroutine("FadeIn");//코루틴 한번만 실행
                     isCoroutine = false;
                 }
 

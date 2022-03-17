@@ -276,7 +276,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   currentTime: 0
   ComboFade: {fileID: 1405066462}
-  PerfactText: {fileID: 8726704874876142625, guid: 1a35b20a83b576b479f3ba6c3dc8bee9, type: 3}
+  PerfectText: {fileID: 8726704874876142625, guid: 1a35b20a83b576b479f3ba6c3dc8bee9, type: 3}
   GoodText: {fileID: 8726704874876142625, guid: 2e24905b4ba96a342b2e587e73b9837b, type: 3}
   TPos: {fileID: 1673094604}
 --- !u!1001 &6955140
@@ -4173,7 +4173,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   currentTime: 0
   ComboFade: {fileID: 1405066462}
-  PerfactText: {fileID: 8726704874876142625, guid: 1a35b20a83b576b479f3ba6c3dc8bee9, type: 3}
+  PerfectText: {fileID: 8726704874876142625, guid: 1a35b20a83b576b479f3ba6c3dc8bee9, type: 3}
   GoodText: {fileID: 8726704874876142625, guid: 2e24905b4ba96a342b2e587e73b9837b, type: 3}
   TPos: {fileID: 1540912596}
 --- !u!1 &669757113
@@ -10172,7 +10172,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   currentTime: 0
   ComboFade: {fileID: 1405066462}
-  PerfactText: {fileID: 8726704874876142625, guid: 1a35b20a83b576b479f3ba6c3dc8bee9, type: 3}
+  PerfectText: {fileID: 8726704874876142625, guid: 1a35b20a83b576b479f3ba6c3dc8bee9, type: 3}
   GoodText: {fileID: 8726704874876142625, guid: 2e24905b4ba96a342b2e587e73b9837b, type: 3}
   TPos: {fileID: 712029274}
 --- !u!1 &1613226383
@@ -11009,7 +11009,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   currentTime: 0
   ComboFade: {fileID: 1405066462}
-  PerfactText: {fileID: 8726704874876142625, guid: 1a35b20a83b576b479f3ba6c3dc8bee9, type: 3}
+  PerfectText: {fileID: 8726704874876142625, guid: 1a35b20a83b576b479f3ba6c3dc8bee9, type: 3}
   GoodText: {fileID: 8726704874876142625, guid: 2e24905b4ba96a342b2e587e73b9837b, type: 3}
   TPos: {fileID: 1892249742}
 --- !u!1 &1757023729
@@ -11726,7 +11726,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   currentTime: 0
   ComboFade: {fileID: 1405066462}
-  PerfactText: {fileID: 8726704874876142625, guid: 1a35b20a83b576b479f3ba6c3dc8bee9, type: 3}
+  PerfectText: {fileID: 8726704874876142625, guid: 1a35b20a83b576b479f3ba6c3dc8bee9, type: 3}
   GoodText: {fileID: 8726704874876142625, guid: 2e24905b4ba96a342b2e587e73b9837b, type: 3}
   TPos: {fileID: 603688158}
 --- !u!1 &1882039883
