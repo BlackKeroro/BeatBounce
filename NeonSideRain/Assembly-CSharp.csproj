@@ -53,88 +53,87 @@
     <UnityVersion>2020.3.24f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Assets\Game\IntroScene\IntroSceneLoad.cs" />
+    <Compile Include="Assets\Script\TItle\IntroSceneLoad.cs" />
     <Compile Include="Assets\VolumetricLines\BuiltInRenderPipeline\ExampleScenes\ExampleScripts\ShotBehavior.cs" />
-    <Compile Include="Assets\Game\Script\Song\One.cs" />
-    <Compile Include="Assets\Game\Script\MeshCut\IntroCut.cs" />
+    <Compile Include="Assets\Script\Song\One.cs" />
+    <Compile Include="Assets\Script\MeshCut\IntroCut.cs" />
     <Compile Include="Assets\VolumetricLines\Scripts\VolumetricLineVertexData.cs" />
-    <Compile Include="Assets\Game\Script\MenuSong.cs" />
-    <Compile Include="Assets\Game\Script\NoteButton.cs" />
-    <Compile Include="Assets\IntroSlashPrefab.cs" />
-    <Compile Include="Assets\Game\Pause.cs" />
+    <Compile Include="Assets\Script\MenuSong.cs" />
+    <Compile Include="Assets\Script\NoteButton.cs" />
+    <Compile Include="Assets\Script\IntroSlashPrefab.cs" />
+    <Compile Include="Assets\Script\Pause.cs" />
     <Compile Include="Assets\VolumetricLines\BuiltInRenderPipeline\ExampleScenes\ExampleScripts\CannonBehavior.cs" />
-    <Compile Include="Assets\Game\Script\SceneLoad.cs" />
-    <Compile Include="Assets\Game\Script\SongLoad.cs" />
-    <Compile Include="Assets\SoftEffects\Scripts\CGHolder.cs" />
+    <Compile Include="Assets\Script\SceneLoad.cs" />
+    <Compile Include="Assets\Package\SoftEffects\Scripts\CGHolder.cs" />
     <Compile Include="Assets\UI pack\Scripts\FillValueNumber.cs" />
-    <Compile Include="Assets\SoftEffects\Scripts\GPUWorker.cs" />
-    <Compile Include="Assets\slashPrefab.cs" />
-    <Compile Include="Assets\Game\Script\MountainRoop.cs" />
-    <Compile Include="Assets\Game\Script\NoteTool.cs" />
-    <Compile Include="Assets\Game\Script\Spectrum.cs" />
-    <Compile Include="Assets\Game\Script\MusicOption.cs" />
-    <Compile Include="Assets\SoftEffects\Scripts\PrintData.cs" />
-    <Compile Include="Assets\Game\IntroScene\HpRender.cs" />
+    <Compile Include="Assets\Package\SoftEffects\Scripts\GPUWorker.cs" />
+    <Compile Include="Assets\Script\slashPrefab.cs" />
+    <Compile Include="Assets\Script\MountainRoop.cs" />
+    <Compile Include="Assets\Script\NoteTool.cs" />
+    <Compile Include="Assets\Script\Spectrum.cs" />
+    <Compile Include="Assets\Script\MusicOption.cs" />
+    <Compile Include="Assets\Package\SoftEffects\Scripts\PrintData.cs" />
+    <Compile Include="Assets\Script\TItle\HpRender.cs" />
     <Compile Include="Assets\VolumetricLines\BuiltInRenderPipeline\ExampleScenes\ExampleScripts\CreateSinShapedLineStrip.cs" />
-    <Compile Include="Assets\Game\Script\Perfect.cs" />
-    <Compile Include="Assets\Game\IntroScene\IntroFade.cs" />
-    <Compile Include="Assets\Game\Script\MeshCut\MeshColliderPerMaterial.cs" />
-    <Compile Include="Assets\Game\IntroScene\Camitween.cs" />
-    <Compile Include="Assets\Game\Script\Fade.cs" />
-    <Compile Include="Assets\Game\Script\NoteManager.cs" />
-    <Compile Include="Assets\Game\IntroScene\IntroPrefab.cs" />
-    <Compile Include="Assets\Game\Script\Song\Star.cs" />
-    <Compile Include="Assets\Game\Script\TexAnim.cs" />
-    <Compile Include="Assets\Game\IntroScene\IntroNote.cs" />
-    <Compile Include="Assets\Game\Script\MeshCut\Mesh_Maker.cs" />
-    <Compile Include="Assets\Game\Script\ScoreUI.cs" />
-    <Compile Include="Assets\SoftEffects\Scripts\SoftEffects.cs" />
-    <Compile Include="Assets\Game\Script\EndScore.cs" />
-    <Compile Include="Assets\SoftEffects\Scripts\Styles.cs" />
+    <Compile Include="Assets\Script\Perfect.cs" />
+    <Compile Include="Assets\Script\TItle\IntroFade.cs" />
+    <Compile Include="Assets\Script\MeshCut\MeshColliderPerMaterial.cs" />
+    <Compile Include="Assets\Script\TItle\Camitween.cs" />
+    <Compile Include="Assets\Script\Fade.cs" />
+    <Compile Include="Assets\Script\NoteManager.cs" />
+    <Compile Include="Assets\Script\TItle\IntroPrefab.cs" />
+    <Compile Include="Assets\Script\Song\Star.cs" />
+    <Compile Include="Assets\Script\TexAnim.cs" />
+    <Compile Include="Assets\Script\TItle\IntroNote.cs" />
+    <Compile Include="Assets\Script\MeshCut\Mesh_Maker.cs" />
+    <Compile Include="Assets\Script\ScoreUI.cs" />
+    <Compile Include="Assets\Package\SoftEffects\Scripts\SoftEffects.cs" />
+    <Compile Include="Assets\Script\EndScore.cs" />
+    <Compile Include="Assets\Package\SoftEffects\Scripts\Styles.cs" />
     <Compile Include="Assets\VolumetricLines\Scripts\VolumetricLineBehavior.cs" />
-    <Compile Include="Assets\SoftEffects\Scripts\ClassExtensions.cs" />
-    <Compile Include="Assets\Game\Script\Song\Parser.cs" />
-    <Compile Include="Assets\GameManager.cs" />
-    <Compile Include="Assets\Game\Script\HpUI.cs" />
-    <Compile Include="Assets\Game\Script\MeshCut\KCut.cs" />
-    <Compile Include="Assets\Game\Script\MusicManager.cs" />
-    <Compile Include="Assets\Game\Script\PlayerHp.cs" />
-    <Compile Include="Assets\Game\IntroScene\IntroSpectrum.cs" />
-    <Compile Include="Assets\Game\Script\MeshCut\FCut.cs" />
-    <Compile Include="Assets\Game\Script\MeshCut\MeshCut.cs" />
-    <Compile Include="Assets\Game\Script\MeshCut\DCut.cs" />
-    <Compile Include="Assets\Game\IntroScene\IntroLeftNote.cs" />
+    <Compile Include="Assets\Package\SoftEffects\Scripts\ClassExtensions.cs" />
+    <Compile Include="Assets\Script\Song\Parser.cs" />
+    <Compile Include="Assets\Script\GameManager.cs" />
+    <Compile Include="Assets\Script\HpUI.cs" />
+    <Compile Include="Assets\Script\MeshCut\KCut.cs" />
+    <Compile Include="Assets\Script\MusicManager.cs" />
+    <Compile Include="Assets\Script\PlayerHp.cs" />
+    <Compile Include="Assets\Script\TItle\IntroSpectrum.cs" />
+    <Compile Include="Assets\Script\MeshCut\FCut.cs" />
+    <Compile Include="Assets\Script\MeshCut\MeshCut.cs" />
+    <Compile Include="Assets\Script\MeshCut\DCut.cs" />
+    <Compile Include="Assets\Script\TItle\IntroLeftNote.cs" />
     <Compile Include="Assets\VolumetricLines\Scripts\VolumetricLineStripBehavior.cs" />
-    <Compile Include="Assets\Game\Script\Note.cs" />
+    <Compile Include="Assets\Script\Note.cs" />
     <Compile Include="Assets\VolumetricLines\BuiltInRenderPipeline\ExampleScenes\ExampleScripts\VolumetricMultiLineBehavior.cs" />
-    <Compile Include="Assets\Game\Script\LightMove.cs" />
-    <Compile Include="Assets\Game\Script\Good.cs" />
-    <Compile Include="Assets\Game\Script\Json\JsonImport.cs" />
-    <Compile Include="Assets\Game\Script\Song\Black.cs" />
-    <Compile Include="Assets\Game\Script\MeshCut\JCut.cs" />
-    <Compile Include="Assets\SoftEffects\Scripts\SoftEffectsFont.cs" />
-    <Compile Include="Assets\Game\CilekOn.cs" />
-    <Compile Include="Assets\Game\Script\ComboUI.cs" />
-    <Compile Include="Assets\Game\Script\NoteActive.cs" />
-    <Compile Include="Assets\Game\Script\MeshCut\SCut.cs" />
-    <Compile Include="Assets\Game\IntroScene\GameRule.cs" />
+    <Compile Include="Assets\Script\LightMove.cs" />
+    <Compile Include="Assets\Script\Good.cs" />
+    <Compile Include="Assets\Script\Json\JsonImport.cs" />
+    <Compile Include="Assets\Script\Song\Black.cs" />
+    <Compile Include="Assets\Script\MeshCut\JCut.cs" />
+    <Compile Include="Assets\Package\SoftEffects\Scripts\SoftEffectsFont.cs" />
+    <Compile Include="Assets\Script\CilekOn.cs" />
+    <Compile Include="Assets\Script\ComboUI.cs" />
+    <Compile Include="Assets\Script\NoteActive.cs" />
+    <Compile Include="Assets\Script\MeshCut\SCut.cs" />
+    <Compile Include="Assets\Script\TItle\GameRule.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
-    <None Include="Assets\SoftEffects\Shaders\SoftShaderFont.shader" />
+    <None Include="Assets\Package\SoftEffects\Shaders\SoftShaderFont.shader" />
     <None Include="Assets\VolumetricLines\BuiltInRenderPipeline\Shaders\_LineStripShader.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
-    <None Include="Assets\StarlinkUI\Resources\English.txt" />
-    <None Include="Assets\StarlinkUI\Art\Starfield.shader" />
+    <None Include="Assets\Package\StarlinkUI\Resources\English.txt" />
+    <None Include="Assets\Package\StarlinkUI\Art\Starfield.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
     <None Include="Assets\Resources\Data.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
-    <None Include="Assets\SoftEffects\Shaders\SoftEffectsCompute.compute" />
+    <None Include="Assets\Package\SoftEffects\Shaders\SoftEffectsCompute.compute" />
     <None Include="Assets\VolumetricLines\BuiltInRenderPipeline\Shaders\LineStrip-TextureAlphaBlended.shader" />
-    <None Include="Assets\StarlinkUI\UI\Arimo20.txt" />
-    <None Include="Assets\slash5-HungNguyen\shader_animatingTile.shader" />
+    <None Include="Assets\Package\StarlinkUI\UI\Arimo20.txt" />
+    <None Include="Assets\Package\slash5-HungNguyen\shader_animatingTile.shader" />
     <None Include="Assets\VolumetricLines\BuiltInRenderPipeline\Shaders\SingleLine-TextureAdditive.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
     <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
@@ -144,9 +143,9 @@
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
     <None Include="Assets\VolumetricLines\BuiltInRenderPipeline\Shaders\_SingleLineShader.cginc" />
     <None Include="Assets\VolumetricLines\BuiltInRenderPipeline\Shaders\LineStrip-TextureAdditive.shader" />
-    <None Include="Assets\StarlinkUI\UI\Medium.txt" />
+    <None Include="Assets\Package\StarlinkUI\UI\Medium.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc" />
-    <None Include="Assets\SoftEffects\Shaders\SoftShaderSpriteWithShadows.shader" />
+    <None Include="Assets\Package\SoftEffects\Shaders\SoftShaderSpriteWithShadows.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
     <None Include="Assets\UI pack\Documentation.txt" />
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
@@ -157,12 +156,12 @@
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
     <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
-    <None Include="Assets\StarlinkUI\Resources\Caps.txt" />
-    <None Include="Assets\StarlinkUI\UI\Large.txt" />
+    <None Include="Assets\Package\StarlinkUI\Resources\Caps.txt" />
+    <None Include="Assets\Package\StarlinkUI\UI\Large.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader" />
-    <None Include="Assets\SoftEffects\Shaders\SoftEditShader.shader" />
+    <None Include="Assets\Package\SoftEffects\Shaders\SoftEditShader.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Sprite.shader" />
-    <None Include="Assets\SoftEffects\Shaders\SoftShaderFontWithShadows.shader" />
+    <None Include="Assets\Package\SoftEffects\Shaders\SoftShaderFontWithShadows.shader" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -389,6 +388,12 @@
     </Reference>
     <Reference Include="Newtonsoft.Json">
       <HintPath>Library\PackageCache\com.unity.nuget.newtonsoft-json@2.0.0\Runtime\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.iOS.Extensions.Xcode">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.24f1\Editor\Data\PlaybackEngines\iOSSupport\UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.iOS.Extensions.Common">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.24f1\Editor\Data\PlaybackEngines\iOSSupport\UnityEditor.iOS.Extensions.Common.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.24f1\Editor\Data\NetStandard\ref\2.0.0\netstandard.dll</HintPath>
